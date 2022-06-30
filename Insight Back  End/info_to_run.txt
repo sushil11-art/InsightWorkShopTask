@@ -1,0 +1,13 @@
+STEP TO RUN THIS API
+
+1. npm install
+2. Create .env file in root folder of this project
+3. PUT THIS line in .env file
+    TOKEN_SECRET="your token secret"
+    DB_CONNECT="Your mongo db connection url"
+
+4. npm run server
+
+5. http://localhost:4000/api/users/
+
+6. See comments in routes/users.js file to access different api routes
