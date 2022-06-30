@@ -25,9 +25,7 @@ const Register = () => {
     if(error) {
       setErrorMessage("* " + error + " *")
     }
-    // if (error) {
-    //   setErrorMessage("* " + error + " *");
-    // }
+
     try {
       registerAdmin(data, navigate);
       // reset();

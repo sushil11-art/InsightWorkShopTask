@@ -16,13 +16,7 @@ const UserItem = ({ user }) => {
   useEffect(()=>{
       setUserId(user._id)
       setName(user.name)
-      // if(user.role=="admin"){
-      //   setRole("Admin")
-      // }
-      // else {
-      //   setRole("Normal User")
-      // }
-      // setDefaultData({name:user.name});
+
   },[user._id])
 
   const handleShow = (id) => {

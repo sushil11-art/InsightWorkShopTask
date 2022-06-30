@@ -6,7 +6,7 @@ import { Fragment } from "react";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import AddUser from "./components/AddUser";
-import EditUser from "./components/EditUser";
+// import EditUser from "./components/EditUser";
 
 import AdminRequiredAuth from "./components/AdminAuth";
 import EditProfile from "./components/EditProfile";
@@ -48,15 +48,7 @@ function App() {
                   </AdminRequiredAuth>
                 }
               />
-              {/* <Route
-                exact
-                path="/editUser"
-                element={
-                  <AdminRequiredAuth>
-                    <EditUser/>
-                  </AdminRequiredAuth>
-                }
-              /> */}
+            
 
               <Route
                 exact
